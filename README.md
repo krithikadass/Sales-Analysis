@@ -86,3 +86,23 @@ Hours with highest purchases
 Relationship between product price and quantity
 
 Cities contributing most to revenue
+
+## Program and Output:
+
+<img width="1381" height="853" alt="Screenshot 2025-11-19 183127" src="https://github.com/user-attachments/assets/c65fbb3b-90fb-4d72-a2f8-76640742eaeb" />
+
+<img width="1269" height="847" alt="Screenshot 2025-11-19 183159" src="https://github.com/user-attachments/assets/dd246941-67b8-445b-a7cf-dc2320e874f7" />
+
+<img width="1234" height="844" alt="Screenshot 2025-11-19 183218" src="https://github.com/user-attachments/assets/f0e8e7ba-94a5-46d6-b63b-dbb8d3ca1068" />
+
+<img width="1204" height="843" alt="Screenshot 2025-11-19 183242" src="https://github.com/user-attachments/assets/5e8cc965-cfe9-46eb-8327-a92493d081c7" />
+
+<img width="1117" height="769" alt="Screenshot 2025-11-19 183259" src="https://github.com/user-attachments/assets/a2771ccf-a64d-4669-b683-1be00a48144d" />
+
+<img width="1110" height="834" alt="Screenshot 2025-11-19 183341" src="https://github.com/user-attachments/assets/57a8b9eb-f012-442f-b9bb-c733f9658b95" />
+
+## Result:
+All required operations—data cleaning, EDA, encoding, scaling, feature selection, and visualization—were successfully performed.
+The analysis provides meaningful insights into sales trends, customer buying patterns, and key factors affecting sales performance.
+
+
