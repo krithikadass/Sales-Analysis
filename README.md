@@ -1,1 +1,88 @@
 # Sales-Analysis
+
+## AIM:
+
+To perform Data Cleaning, Exploratory Data Analysis (EDA), Feature Encoding, Feature Scaling, Feature Selection, and Data Visualization using Matplotlib and Seaborn for the given Sales Data CSV file.
+
+## ALGORITHM:
+### STEP 1: Import Required Libraries
+
+Import libraries such as pandas, numpy, matplotlib, seaborn, and scikit-learn modules for preprocessing and feature selection.
+
+### STEP 2: Load the CSV File
+
+Read the Sales Data.csv file into a pandas DataFrame using:
+
+df = pd.read_csv(file_path)
+
+### STEP 3: Perform Data Cleaning
+
+Remove duplicate rows
+
+Fill missing values using forward fill
+
+Convert Order Date to datetime format
+
+Extract additional features like Month and Hour
+
+### STEP 4: Exploratory Data Analysis (EDA)
+
+Perform basic data inspection:
+
+Statistical summary
+
+Null value checking
+
+Data types identification
+
+### STEP 5: Feature Encoding
+
+Apply One-Hot Encoding for categorical variables such as City and Product using:
+
+pd.get_dummies()
+
+### STEP 6: Feature Scaling
+
+Use StandardScaler to normalize selected numerical columns like:
+
+Quantity Ordered
+
+Price Each
+
+Sales
+
+Hour
+
+### STEP 7: Feature Selection
+
+Use SelectKBest with f_regression to find top features impacting the Sales variable.
+
+### STEP 8: Data Visualization using Matplotlib
+
+Generate plots to understand trends over time:
+
+Line plot for Sales by Month
+
+Line plot for Sales by Hour
+
+### STEP 9: Data Visualization using Seaborn
+
+Use seaborn to create statistical graphics such as:
+
+Scatterplot for Quantity vs Price
+
+Barplot showing Sales by City
+
+Heatmap showing feature correlations
+
+### STEP 10: Interpret Results
+
+Analyze each graph to understand trends like:
+
+Peak sales months
+
+Hours with highest purchases
+
+Relationship between product price and quantity
+
+Cities contributing most to revenue
